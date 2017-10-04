@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+void normalize(string &a, string &b){
+  if (b.length() > a.length()){
+    string temp = a;
+    a = b;
+    b = temp;
+  }
+}
+
+string sum(string first, string second){
+  string result;
+  int len_first = first.length();
+  int len_second = second.length();
+  
+
+}
+
+int main(){
+  string a, b;
+  cout << "Enter two numbers: ";
+  cin >> a >> b;
+  normalize(a, b);
+  cout << sum(a, b);
+  return 0;
+}
