@@ -10,11 +10,22 @@ void normalize(string &a, string &b){
 }
 
 string sum(string first, string second){
-  string result;
   int len_first = first.length();
   int len_second = second.length();
-  
-
+  char result[len_first];
+  int i = 0, sum = 0, reminder = 0;
+  for (int j = len_second - 1; j >= 0; j--){
+    sum = first[len_first - len_second + j] + second[j] + reminder;
+    if (sum > 9){
+      sum -= 10;
+      reminder = 1;
+    }
+    else {
+      reminder = 0;
+    }
+    result[i] = sum;
+    i++;
+  }
 }
 
 int main(){
