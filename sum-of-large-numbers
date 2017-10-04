@@ -26,6 +26,9 @@ string sum(string first, string second){
     result[i] = sum;
     i++;
   }
+  while (i < len_first){
+    result[i] = first[len_first - i]
+  }
 }
 
 int main(){
