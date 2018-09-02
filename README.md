@@ -1,3 +1,3 @@
 ## Practice makes perfect!
 
-Solutions to Codeforce, HackerRank, ACM ICPC and interview problems.
+Solutions to the Codeforce, HackerRank, ACM ICPC and interview problems.
